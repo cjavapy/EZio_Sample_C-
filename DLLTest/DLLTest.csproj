@@ -110,6 +110,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="dlls\32\EZio32.lib" />
+    <None Include="dlls\64\EZio64.lib" />
+    <None Include="dlls\EZio_DLL_UM_CN_20200723.pdf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -143,6 +146,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dlls\32\EZio32.dll" />
+    <Content Include="dlls\32\EZio32.h" />
+    <Content Include="dlls\64\EZio64.dll" />
+    <Content Include="dlls\64\EZio64.h" />
     <Content Include="EZio32.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
